@@ -1,0 +1,19 @@
+{
+  "name": "html-book",
+  "main": "gulpfile.js",
+  "authors": [
+    "spartak <abalmaz.spartak@yandex.ua>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

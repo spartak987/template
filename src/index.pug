@@ -1,0 +1,27 @@
+doctype html
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		meta(name="description" content="")
+		meta(name="keywords" content="")
+		meta(name="viewport" content="width=device-width")
+		<!--[if lt IE 9]>
+		script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+		<![endif]-->
+		<!--[if lt IE 9]>
+		script(src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js")
+		<![endif]-->
+		//- подключаем карусель owl
+		//- link(rel="stylesheet" href="../utilities/owlcarousel/css/owl.carousel.min.css")
+		//- link(rel="stylesheet" href="../utilities/owlcarousel/css/owl.theme.default.min.css")
+		link(rel="stylesheet" href="css/style.css")
+		title template
+	body
+		.wrapper
+			include pug/header
+			include pug/main
+			include pug/footer
+		script(src="utilities/jquery/dist/jquery.min.js")
+		script(src="js/main.js")
+		//- script(src="../utilities/owlcarousel/owl.carousel.min.js")
+
